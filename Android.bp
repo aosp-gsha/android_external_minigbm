@@ -118,3 +118,8 @@ cc_library_shared {
 
     export_include_dirs: ["."],
 }
+
+cc_library_headers {
+	name: "minigbm_inc",
+	export_include_dirs: ["."],
+}
